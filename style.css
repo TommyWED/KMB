@@ -1,0 +1,61 @@
+html {
+  height: 570px;
+  width: 530px;
+  background-color: red;
+}
+
+.bigshow {
+  height: 500px;
+  width: 500px;
+  border: 5px black double;
+  position: relative;
+  background-color: darkgrey;
+}
+
+.stop {
+  height: 100%;
+  width: 100%;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.time {
+  height: 50%;
+  width: 50%;
+  background-color: black;
+  display: none;
+  position: absolute;
+  top: 25%;
+  right: 25%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.time li{
+  color:white;
+}
+
+.okB {
+  height: 30px;
+  width: 30px;
+}
+
+.stopdiv {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  border: 1px red solid;
+  background-color: grey;
+  color: white
+}
+
+.funBar {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}

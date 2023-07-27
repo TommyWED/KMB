@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "KMB fetch",
+  "description": "Fetching KMB API",
+  "version": "1.0",
+  "content_security_policy": "script-src 'self' 'unsafe-eval' 'unsafe-inline'; object-src 'self'",
+  "action": {
+    "default_popup": "index.html"
+    
+  }
+}
